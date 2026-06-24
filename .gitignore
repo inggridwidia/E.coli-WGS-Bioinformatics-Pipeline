@@ -1,0 +1,10 @@
+# Ignore large raw sequencing data files
+*.fastq
+*.fastq.gz
+*.sra
+SRR36640870/
+
+# Ignore heavy visual reports and compressed results
+*.html
+*.json
+*.zip
