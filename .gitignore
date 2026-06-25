@@ -1,4 +1,4 @@
-# Ignore large raw sequencing data files
+# Ignore large raw sequencing data files (Mission 1)
 *.fastq
 *.fastq.gz
 *.sra
@@ -8,3 +8,13 @@ SRR36640870/
 *.html
 *.json
 *.zip
+
+# Ignore Genome Reference & Mapping Indexes (Mission 2)
+*.fna
+*.fna.gz
+*.mmi
+*.sam
+
+# Ignore Compressed & Sorted Alignment Files (Mission 3)
+*.bam
+*.bai
