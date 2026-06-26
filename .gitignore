@@ -1,29 +1,17 @@
-# Ignore large raw sequencing data files (Mission 1)
-*.fastq
-*.fastq.gz
-*.sra
-SRR36640870/
+# Ignore All Local Intermediate Mission Directory Folders
+# These folders contain heavy intermediate step files (VCFs, indexes, etc.)
+mission01/
+mission02/
+mission03/
+mission04/
+mission05/
 
-# Ignore heavy visual reports and compressed results
-*.html
-*.json
-*.zip
-
-# Ignore Genome Reference & Mapping Indexes (Mission 2)
-*.fna
-*.fna.gz
-*.mmi
-*.sam
-
-# Ignore Compressed & Sorted Alignment Files (Mission 3)
-*.bam
-*.bai
-
-# Ignore SnpEff Local Custom Database & Config
+# Ignore local data database, configs, and binary files
 data/
 snpEff.config
 *.bin
 
-# Ignore Local Workspace Folders
-mission02/
-mission04/
+# Global safety check for heavy visual reports and compressed files
+*.html
+*.json
+*.zip

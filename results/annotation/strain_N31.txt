@@ -1,0 +1,7 @@
+organism: Escherichia coli strain 
+contigs: 67
+bases: 5179245
+tRNA: 87
+rRNA: 11
+CDS: 4881
+tmRNA: 1
