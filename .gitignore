@@ -10,6 +10,9 @@ mission05/
 data/
 snpEff.config
 *.bin
+E.coli-WGS-Bioinformatics-Pipeline.Rproj
+.RData
+.Rhistory
 
 # Global safety check for heavy visual reports and compressed files
 *.html
