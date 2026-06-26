@@ -18,3 +18,12 @@ SRR36640870/
 # Ignore Compressed & Sorted Alignment Files (Mission 3)
 *.bam
 *.bai
+
+# Ignore SnpEff Local Custom Database & Config
+data/
+snpEff.config
+*.bin
+
+# Ignore Local Workspace Folders
+mission02/
+mission04/
